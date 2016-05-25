@@ -1,0 +1,23 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 7,
+        "impliedStrict": true,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "env": {
+        "browser": true,
+        "node": true,
+        "commonjs": true,
+        "es6": true,
+        "mocha": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+        "comma-dangle": [1, "only-multiline"],
+        "no-unused-vars": 1,
+        "no-console": 0
+    }
+}

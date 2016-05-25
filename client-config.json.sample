@@ -1,0 +1,30 @@
+{
+    "password": "password",
+    "host": "localhost",
+    "port": 30137,
+    "timeout": 5000,
+    "tcp-use": {
+        "http": {
+            "host": "localhost",
+            "port": 27117
+        }
+    },
+    "tcp-provide": {
+        "http": {
+            "host": "localhost",
+            "port": 27017
+        }
+    },
+    "udp-use": {
+        "dns": {
+            "host": "localhost",
+            "port": 1153
+        }
+    },
+    "udp-provide": {
+        "dns": {
+            "host": "localhost",
+            "port": 53
+        }
+    }
+}

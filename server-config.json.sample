@@ -1,0 +1,7 @@
+{
+    "server": true,
+    "password": "password",
+    "host": "localhost",
+    "port": 30137,
+    "timeout": 5000
+}
