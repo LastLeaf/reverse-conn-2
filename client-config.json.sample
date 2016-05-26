@@ -3,6 +3,7 @@
     "host": "localhost",
     "port": 30137,
     "timeout": 5000,
+    "udpTimeout": 600000,
     "tcp-use": {
         "http": {
             "host": "localhost",
@@ -24,7 +25,7 @@
     "udp-provide": {
         "dns": {
             "host": "localhost",
-            "port": 53
+            "port": 2253
         }
     }
 }
